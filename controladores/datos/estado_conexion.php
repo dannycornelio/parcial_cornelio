@@ -1,5 +1,5 @@
 <?php
-require '../../modelo/conexion.php';
+require '../../modelo/datos_curso.php';
 
 try {
     $producto = new Curso($_POST);

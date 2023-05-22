@@ -56,8 +56,8 @@
                         <input type="number" name="creditos_curso" id="creditos_curso" class="form-control"required number>
                     </div>
                     <div class="col-6">
-                        <label for="cantidad_period">Cantidad de periodo</label>
-                        <input type="number" name="cantidad_period" id="cantidad_period" class="form-control" required number>
+                        <label for="cantidad_periodo">Cantidad de periodo</label>
+                        <input type="number" name="cantidad_periodo" id="cantidad_periodo" class="form-control" required number>
                     </div>
                 </div>
                 <div class="row mb-3">

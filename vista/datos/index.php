@@ -30,7 +30,7 @@
                         <input type="number" name="id_curso" id="id_curso" class="form-control" required>
                     </div>
                     <div class="col-5">
-                        <label for="fase_actual">Face actual del curso</label>
+                        <label for="fase_actual">Fase actual del curso</label>
                         <input type="text" name="fase_actual" id="fase_actual" class="form-control" required>
                     </div>                    
                 </div>

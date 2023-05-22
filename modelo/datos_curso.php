@@ -1,7 +1,7 @@
 <?php
-require 'Conexion.php';
+require 'conexion.php';
 
-class Alumnos extends Conexion{
+class Curso extends Conexion{
     public $id_curso;
     public $nome_curso;
     public $cantidad_period;

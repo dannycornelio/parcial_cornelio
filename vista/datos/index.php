@@ -43,7 +43,7 @@
                 <div class="row mb-3">
                   <div class="col-6">
                         <label for="nombre_instrctor">Nombre del Instructor</label>
-                        <input type="text" name="nombre_instrctor" id="nombre_instrctor" class="form-control">
+                        <input type="text" name="nombre_instrctor" id="nombre_instrctor" class="form-control" required>
                     </div>
                     <div class="col">
                         <label for="apellido_instructor">Apellido del Instructor</label>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-6">
                         <label for="cantidad_periodo">Cantidad de periodo</label>
-                        <input type="number" name="cantidad_periodo" id="cantidad_periodo" class="form-control">
+                        <input type="number" name="cantidad_periodo" id="cantidad_periodo" class="form-control" required>
                     </div>
                 </div>
                 <div class="row mb-3">

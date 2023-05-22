@@ -27,37 +27,37 @@
                 <div class="row mb-3">
                     <div class="col-3">
                         <label for="id_curso">Codigo del curso</label>
-                        <input type="number" name="id_curso" id="id_curso" class="form-control" required>
+                        <input type="number" name="id_curso" id="id_curso" class="form-control" required text>
                     </div>
                     <div class="col-5">
                         <label for="fase_actual">Fase actual del curso</label>
-                        <input type="text" name="fase_actual" id="fase_actual" class="form-control" required>
+                        <input type="text" name="fase_actual" id="fase_actual" class="form-control" required text>
                     </div>                    
                 </div>
                 <div class="row mb-3">
                     <div class="col">
                         <label for="nome_curso">Nombre del curso</label>
-                        <input type="text" name="nome_curso" id="nome_curso" class="form-control" required>
+                        <input type="text" name="nome_curso" id="nome_curso" class="form-control" required text>
                     </div>
                 </div>
                 <div class="row mb-3">
                   <div class="col-6">
                         <label for="nombre_instrctor">Nombre del Instructor</label>
-                        <input type="text" name="nombre_instrctor" id="nombre_instrctor" class="form-control" required>
+                        <input type="text" name="nombre_instrctor" id="nombre_instrctor" class="form-control" required text>
                     </div>
                     <div class="col">
                         <label for="apellido_instructor">Apellido del Instructor</label>
-                        <input type="text" name="apellido_instructor" id="apellido_instructor" class="form-control" required>
+                        <input type="text" name="apellido_instructor" id="apellido_instructor" class="form-control" required text>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-6">
                         <label for="creditos_curso">Creditos del curso</label>
-                        <input type="number" name="creditos_curso" id="creditos_curso" class="form-control"required>
+                        <input type="number" name="creditos_curso" id="creditos_curso" class="form-control"required number>
                     </div>
                     <div class="col-6">
-                        <label for="cantidad_periodo">Cantidad de periodo</label>
-                        <input type="number" name="cantidad_periodo" id="cantidad_periodo" class="form-control" required>
+                        <label for="cantidad_period">Cantidad de periodo</label>
+                        <input type="number" name="cantidad_period" id="cantidad_period" class="form-control" required number>
                     </div>
                 </div>
                 <div class="row mb-3">

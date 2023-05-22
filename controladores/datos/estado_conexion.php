@@ -2,7 +2,7 @@
 require '../../modelo/conexion.php';
 
 try {
-    $curso = new curso ($_POST);
+    $curso = new Curso ($_POST);
     $resultado = $curso->guardar();
     $error = "Los datos no se guardaron correctamente en el sistema";
 } catch (PDOException $e) {

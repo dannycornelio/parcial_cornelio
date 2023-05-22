@@ -23,7 +23,7 @@
     <div class="container">
         <h3 class="text-center">Formulario de registros de cursos</h3>
         <div class="row justify-content-center">
-            <form action="/practica_7/controladores/datos/alumnos.php" method="POST" class="col-lg-8 border bg-light p-3">
+            <form action="/parcial_cornelio/controladores/datos/estado_conexion.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col-3">
                         <label for="id_curso">Codigo del curso</label>

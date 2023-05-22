@@ -1,5 +1,5 @@
 <?php
-require 'conexion.php';
+require 'Conexion.php';
 
 class Curso extends Conexion{
     public $id_curso;
@@ -23,7 +23,7 @@ class Curso extends Conexion{
     }
 
     public function guardar(){
-        $sql = "INSERT INTO datos_estudiante(id_curso, nome_curso, cantidad_period, fase_actual, nombre_instrctor, apellido_instructor, creditos_curso) values('$this->id_curso','$this->nome_curso','$this->cantidad_period','$this->fase_actual','$this->nombre_instrctor','$this->apellido_instructor','$this->creditos_curso')";
+        $sql = "INSERT INTO registro_cursos(id_curso, nome_curso, cantidad_period, fase_actual, nombre_instrctor, apellido_instructor, creditos_curso) values('$this->id_curso','$this->nome_curso','$this->cantidad_period','$this->fase_actual','$this->nombre_instrctor','$this->apellido_instructor','$this->creditos_curso')";
         $resultado = self::ejecutar($sql);
         return $resultado;
     }

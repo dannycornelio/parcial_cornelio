@@ -2,8 +2,8 @@
 require '../../modelo/conexion.php';
 
 try {
-    $curso = new Curso ($_POST);
-    $resultado = $curso->guardar();
+    $producto = new Curso($_POST);
+    $resultado = $producto->guardar();
     $error = "Los datos no se guardaron correctamente en el sistema";
 } catch (PDOException $e) {
     $error = $e->getMessage();
